@@ -4,7 +4,7 @@ import App from './App';
 import renderer from 'react-test-renderer';
 
 it('renders without crashing', () => {
-  test();
+  test2();
   const rendered = renderer.create(<App />).toJSON();
   expect(rendered).toBeTruthy();
 });
